@@ -455,7 +455,7 @@ BENCH_START(surf_driver_tim)
      &        ,BR=grid%br              ,CANWAT=grid%canwat      ,CHKLOWQ=chklowq    &
      &        ,CT=grid%ct              ,DT=grid%dt         ,DX=grid%dx         &
 ! QQF for PIEKTUKD 2019-11-27
-              ,DY=grid%dy          &
+     &        ,DY=grid%dy          &
 ! QQF for PIEKTUKD 2019-11-27              
      &        ,DZ8W=dz8w          ,DZS=grid%dzs            ,FLHC=grid%flhc          &
      &        ,FM=grid%fm         ,FHH=grid%fh                                      &
